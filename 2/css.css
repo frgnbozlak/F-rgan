@@ -1,0 +1,157 @@
+
+ul{
+    list-style-type: none;
+    background-color:#464849;
+  margin-top:0%;
+    
+    
+ 
+}
+
+ul li{
+
+    padding: 25px;
+    padding-left: 45px;
+    background-color:#464849;
+   
+    display: inline-block;
+    height: 60px;
+   
+    
+}
+#li:hover{
+
+    background-color:#0CA6BE ;
+    transition: 0.6s;
+   
+}
+ul li a{
+
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    padding-bottom: -5px;
+ 
+    
+
+}
+ul li a:hover{
+
+    color: #EDF901;
+}
+
+ul li i{
+
+    margin-right: 7px;
+}
+
+  
+*{
+    box-sizing:border-box;
+}
+  /* html{
+    font-size:52.5%; 
+}  */
+
+
+.card{
+    width: 28%;
+    margin-top:30px;
+    margin-left: 30px;
+    background:white;
+    border-radius:3%;
+    box-shadow:lightsteelblue 0 0 5px;
+    transition: all .2s;
+   }
+
+
+.card:hover{
+    box-shadow:grey 0 0 15px; 
+}
+
+.card-header{
+    overflow: hidden;
+    height: 25rem;
+}
+
+.card-header img{
+    width: 100%;
+    transition: all .2s;
+}
+
+.card-header img:hover{
+    transform: scale(1.1);
+}
+
+.card-body{
+    padding-top: 2px;
+    text-align: center;
+} 
+.card-body h3{
+    margin-top: 1px;
+    font-size:3.2rem;
+}
+.social_Link{
+
+    list-style-type: none;
+    text-decoration: none;
+    color:grey ;
+    font-size: large;
+
+    }
+    .social_Link:hover{
+
+        color: #EDF901 ;
+    transition: 0.4s; 
+    }
+
+    .my_Website{
+        color: #fff; 
+        /* position: relative; */
+        font-family:cursive;
+        font-size: 25px;
+        text-shadow:
+        0 0 5px #fff, 
+        0 0 10px #fff,
+        0 0 15px #0073e6, 
+        0 0 20px #0073e6, 
+        0 0 25px #0073e6, 
+        0 0 30px #0073e6, 
+        0 0 35px #0073e6;
+       padding-left: -50px;
+     
+    }
+
+
+    #dp-content{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 35px;
+        margin-left: -80px;
+        
+        
+    }
+   .about:hover #dp-content{
+       display: block;
+       
+   }
+
+   #caret_down{
+
+    margin-left: 6px;
+   }
+
+   .about_a{
+
+    color: black;
+    font: size 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+   }
+    .about_a:hover{
+
+      
+      color:#FE9328;
+    }
